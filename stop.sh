@@ -1,3 +1,3 @@
 #!/bin/sh
-docker stop BlockPing
-docker rm BlockPing
+docker stop block_ping
+docker rm block_ping
