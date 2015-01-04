@@ -1,0 +1,12 @@
+{
+  "name": "BlockPing",
+  "version": "0.0.0",
+  "description": "Block destroy game with other player",
+  "main": "main.js",
+  "repository": "https://github.com/mysticPrg/TestProject",
+  "author": "mysticPrg <mysticPrg@gmail.com",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "express": "~4.10.6"
+  }
+}
