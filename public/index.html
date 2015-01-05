@@ -4,9 +4,61 @@
     <meta charset="UTF-8">
     <title>BlockPing</title>
 
-    <p>Hello BlockPing!</p>
+    <style>
+
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #toucharea {
+            width: 500px;
+            height: 700px;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            z-index: 10;
+        }
+
+        #background {
+            width: 500px;
+            height: 700px;
+            background-color: #99d6ab;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            z-index: 0;
+        }
+
+        #bar {
+            width: 100px;
+            height: 10px;
+            background-color: #2dc8d5;
+            position: absolute;
+            left: -100px;
+            top: -100px;
+            z-index: 1;
+        }
+
+        #another_bar {
+            width: 100px;
+            height: 10px;
+            background-color: #d5001b;
+            position: absolute;
+            left: -100px;
+            top: -100px;
+            z-index: 1;
+        }
+    </style>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="index.js"></script>
 </head>
 <body>
-
+    <div id="toucharea"></div>
+    <div id="background"></div>
+    <div id="bar"></div>
+    <div id="another_bar"></div>
 </body>
 </html>
