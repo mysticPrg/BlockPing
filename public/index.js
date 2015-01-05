@@ -7,7 +7,7 @@ var factor = 0.05;
 var x, y;
 var another_x, another_y;
 
-socket.on('click', function(pos) {
+socket.on('click', function (pos) {
     another_x = pos.x;
     another_y = pos.y;
 
@@ -26,7 +26,7 @@ function moveTo() {
 
     var force = (force_x > 0 ? force_x : -force_x) + (force_y > 0 ? force_y : -force_y);
 
-    if ( force <= 0.01 ) {
+    if (force <= 0.01) {
         return;
     }
 
@@ -51,7 +51,7 @@ function anotherMoveTo() {
 
     var force = (force_x > 0 ? force_x : -force_x) + (force_y > 0 ? force_y : -force_y);
 
-    if ( force <= 0.01 ) {
+    if (force <= 0.01) {
         return;
     }
 
